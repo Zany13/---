@@ -1,0 +1,125 @@
+
+body {
+    
+    background-color:  #b5d1f2; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #f8f8f8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+caption {
+    font-size: 25px;
+    color:#6A0DAD;
+    font-style: italic;
+}
+
+table, th, td {
+    border: 1px solid #5615fc;
+}
+
+th, tr > td {
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+th {
+    background-color: #f7d9f3;
+}
+
+tr:hover {
+    background-color: #e0f7fa;
+}
+
+ul, ol {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    list-style-position: inside;
+    font-size: 18px;
+    box-shadow: 10px 10px 10px rgb(82, 80, 138);
+}
+
+ul li:first-child, ol li:first-child {
+    color: darkred;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none !important;
+    color: #4B0082 !important;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+a:hover {
+    color: #FF4500 !important;
+    transform: scale(1.05);
+}
+
+h1, h2, h3 {
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+h1:hover, h2:hover, h3:hover {
+    color: #6A0DAD;
+    text-shadow: 2px 2px 8px #aaa;
+}
+
+h1::before {
+    content: "🕹️ ";
+}
+
+h1::after {
+    content: " 📰";
+}
+
+h2::before {
+    content: "🎮 ";
+}
+
+h2::after {
+    content: " ✨";
+}
+
+.navigation-links {
+    text-align: center;
+    margin: 50px 0;
+    clear: both; 
+   
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 18px;
+    color: white !important;
+    background-color: #6A0DAD;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none !important;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+    background-color: #9b30ff;
+    transform: scale(1.05);
+}
+
+#ilist::before {
+    content: "⬅️";
+}
+
+#qas::after {
+    content: "➡️";
+}
